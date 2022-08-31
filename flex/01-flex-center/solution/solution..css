@@ -1,0 +1,32 @@
+Skip to content Search or jump to… Pull requests Issues Marketplace Explore @jellohead TheOdinProject / css-exercises Public Code Issues 5 Pull requests 7 Actions Projects Security Insights css-exercises/flex/01-flex-center/solution/solution.css @codyloyd codyloyd rename directories Latest commit 93f3fee on Aug 24,
+2021 History 1 contributor 29 lines (24 sloc) 605 Bytes .container {
+    background: dodgerblue;
+    border: 4px solid midnightblue;
+    width: 400px;
+    height: 300px;
+}
+
+.box {
+    background: palevioletred;
+    font-weight: bold;
+    text-align: center;
+    border: 6px solid maroon;
+    width: 80px;
+    height: 80px;
+}
+
+/* SOLUTION */
+
+/* disclaimer: duplicating the `.container` selector here isn't best practice.
+In your solution you probably put it right inside the existing `.container`,
+which _is_ the best practice. 
+We separated it out here to make it extra clear what has changed. */
+
+.container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+Footer © 2022 GitHub,
+Inc. Footer navigation Terms Privacy Security Status Docs Contact GitHub Pricing API Training Blog About You have no unread notifications
