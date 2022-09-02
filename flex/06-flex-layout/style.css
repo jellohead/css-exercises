@@ -40,13 +40,15 @@ li {
 .header {
   display: flex;
   justify-content: space-between;
-
+  padding-right: 3em;
 }
 
 .footer {
   margin-top: auto;
   display: flex;
   justify-content: space-between;
+  background-color: rgb(231, 229, 229);
+  padding-right: 3em;
 
 }
 
@@ -57,10 +59,15 @@ ul {
 
 a {
   text-decoration: none;
+  color: rgb(97, 97, 97);
 }
 
 .content {
   display: flex;
   flex-direction: column;
   align-items: center;
+}
+
+button {
+  padding: .75em;
 }
