@@ -68,16 +68,34 @@ button.cancel {
 
 /* my changes */
 
-/* .modal {
+.modal {
   display: flex;
-} */
+  margin: 2em;
+  padding: 1em;
+}
 
-.container {
+.header {
+  font-weight: bold;
+}
+
+.first-row {
   display: flex;
-  justify-content: space-evenly;
+  justify-content: space-between;
+  padding-left: 1em;
 }
 
 .text {
   display: flex;
+  padding-left: 1em;
+  flex-wrap: wrap;
+}
+
+.icon {
+  flex-shrink: 0;
   padding-left: 5px;
+}
+
+.third-row {
+  padding-top: 1em;
+  padding-left: 1em;
 }
